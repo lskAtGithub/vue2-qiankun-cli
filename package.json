@@ -1,0 +1,12 @@
+{
+  "name": "vue2-qiankun-cli",
+  "version": "1.0.0",
+  "description": "基于qiankun配置的微前端脚手架,内置了vue2、vue-route、vuex、element-ui, 基础的项目配置、脚本、通用组件，开箱即用",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
