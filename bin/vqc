@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+
+const program = require('commander')
+
+program.usage('<command>')
+
+program.version(require('../package').version)
+
+program
+  .command('create')
+  .description('create a new project')
+  .action(() => {
+    require('../commands/create')
+  })
+
+program.parse(process.argv)
