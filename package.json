@@ -19,5 +19,7 @@
   ],
   "author": "刘圣凯",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "commander": "^9.0.0"
+  }
 }
