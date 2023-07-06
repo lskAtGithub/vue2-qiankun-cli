@@ -1,23 +1,23 @@
 {
   "name": "vue2-qiankun-cli",
   "version": "1.0.0",
-  "description": "基于qiankun配置的微前端脚手架,内置了vue2、vue-route、vuex、element-ui, 基础的项目配置、脚本、通用组件，开箱即用",
+  "description": "基于qiankun的脚手架, 主要使用了 vue2全家桶, 内置了大量组件和常用方法及模块, 开箱即用",
   "main": "index.js",
-  "bin": {
-    "vqc create": "bin/vqc-create"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "bin": {
+    "vqc": "bin/entry"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/lsk_ciao/vue2-qiankun-cli.git"
+  },
+  "keywords": [
+    "vue2",
+    "qiankun"
+  ],
+  "author": "刘圣凯",
   "license": "ISC",
-  "dependencies": {
-    "chalk": "^5.3.0",
-    "commander": "^11.0.0",
-    "download-git-repo": "^3.0.2",
-    "inquirer": "^9.2.7",
-    "log-symbols": "^5.1.0",
-    "ora": "^6.3.1"
-  }
+  "dependencies": {}
 }
