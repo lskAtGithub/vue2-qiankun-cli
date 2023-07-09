@@ -15,15 +15,24 @@
   },
   "keywords": [
     "vue2",
-    "qiankun"
+    "qiankun",
+    "脚手架",
+    "vue-qiankun-cli",
+    "cli"
   ],
-  "author": "刘圣凯",
+  "author": {
+    "name": "liushengkai",
+    "email": "lsk_whalefall@qq.com"
+  },
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.4.0",
     "chalk": "^4.0.0",
     "commander": "^9.0.0",
     "figlet": "^1.5.2",
     "fs-extra": "^10.0.1",
+    "gitee-repo": "^0.0.2",
+    "download-git-repo": "^3.0.2",
     "inquirer": "^8.2.1",
     "ora": "^5.0.0"
   }
