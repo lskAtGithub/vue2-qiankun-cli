@@ -1,6 +1,6 @@
 {
   "name": "vue2-qiankun-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "基于qiankun的脚手架, 主要使用了 vue2全家桶, 内置了大量组件和常用方法及模块, 开箱即用",
   "main": "index.js",
   "scripts": {
