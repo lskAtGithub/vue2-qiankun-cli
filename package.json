@@ -20,6 +20,15 @@
     "vue-qiankun-cli",
     "cli"
   ],
+  "files": [
+    "bin",
+    "command",
+    "utils",
+    "index.js",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
   "author": {
     "name": "liushengkai",
     "email": "lsk_whalefall@qq.com"
